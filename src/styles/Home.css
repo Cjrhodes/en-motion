@@ -1,0 +1,25 @@
+/* Adjustments to make the image smaller and improve layout */
+.section {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  padding: 1rem;
+}
+
+.textSection {
+  width: 60%;
+  padding-right: 2rem;
+}
+
+.imageSection {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.styledImage {
+  max-width: 200px;
+  height: auto;
+  border-radius: 8px;
+}

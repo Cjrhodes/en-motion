@@ -1,0 +1,36 @@
+.image-slider {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 85vh; /* Adjust based on your need */
+  }
+  
+  .image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 2s ease-in-out; /* Smooth transition effect */
+  }
+  
+  .image.active {
+    opacity: 1;
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .prev { left: 10px; }
+  .next { right: 10px; }
+  
