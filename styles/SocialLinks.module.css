@@ -1,0 +1,7 @@
+.socialMediaList {
+    list-style: none;
+    padding: 5;
+    display: flex;
+    gap: 1rem;
+   
+  }
